@@ -1,5 +1,6 @@
 ##Login
 
+
 | Test Case ID | Title | Preconditions | Environment | Steps | Expected Result | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | TC-001 | Login with valid credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/<br>2. Enter username: standard_user<br>3. Enter password: secret_sauce<br>4. Click “Login” button | User is logged in and redirected to products page | Pass |
@@ -7,13 +8,16 @@
 | TC-003 | Login with empty credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/<br>2. Leave fields empty<br>3. Click “Login” button | Error message “Username is required” is displayed | Pass |
 | TC-004 | Login without password | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/<br>2. Enter username<br>3. Leave password empty<br>4. Click “Login” button | Error message “Password is required” is displayed | Pass |
 
+
 ##Cart
+
 
 
 | Test Case ID | Title | Preconditions | Environment | Steps | Expected Result | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | TC-005 | Add product to cart | User is logged in | Chrome/Windows 10 | 1. Open products page<br>2. Click “Add to cart” on a product<br>3. Open cart | Product is visible in cart with correct details | Pass |
 | TC-006 | Remove product from cart | Product is in cart | Chrome/Windows 10 | 1. Open cart<br>2. Click “Remove”<br>3. Check cart | Product is removed from cart | Pass |
+
 
 ##Checkout
 
