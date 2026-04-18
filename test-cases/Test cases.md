@@ -3,10 +3,7 @@
 | Test Case ID | Title | Preconditions | Environment | Steps | Expected Result | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | TC-001 | Login with valid credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/<br>2. Enter username: standard_user<br>3. Enter password: secret_sauce<br>4. Click “Login” button. | User is successfully logged in and redirected to the products page | Pass |
-| TC_002 | Login with invalid credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/
-2. Enter username: standard_user
-3. Enter password: wrong_password
-4. Click “Login” button | Error message “Username and password do not match any user in this service” is displayed | Pass |
+| TC_002 | Login with invalid credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/<br2. Enter username: standard_user<br3. Enter password: wrong_password<br4. Click “Login” button | Error message “Username and password do not match any user in this service” is displayed | Pass |
 | TC_003 | Login with empty credentials | None | Chrome/Windows 10 | 1. Open https://www.saucedemo.com/
 2. Leave username field empty
 3. Leave password field empty
